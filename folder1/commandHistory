@@ -1,0 +1,70 @@
+ 1019  git status
+ 1020  ls
+ 1021  git add file1.txt
+ 1022  git status
+ 1023  git commit -m "Added file1.txt"
+ 1024  git config --global user.email "0123456789.ppppph@gmail.com"
+ 1025  git config --global user.name "Xuanyu"
+ 1026  git commit -m "Added file1.txt"
+ 1027  git status
+ 1028  git branch
+ 1029  git push origin master
+ 1030  git checkout -b addFile2
+ 1031  git checkout -b addFile3
+ 1032  git branch
+ 1033  ls
+ 1034  cp file1.txt file3.txt 
+ 1035  vi file3.txt 
+ 1036  ls
+ 1037  git status
+ 1038  git add file3.txt
+ 1039  git commit -m "Added file3"
+ 1040  ls
+ 1041  git checkout addFile2 
+ 1042  ls
+ 1043  ls -la ../
+ 1044  ls
+ 1045  cp file1.txt file2.txt 
+ 1046  vi file2.txt 
+ 1047  ls
+ 1048  git add file2.txt
+ 1049  git commit -m "Added file 2"
+ 1050  git checkout master
+ 1051  ls
+ 1052  git checkout addFile2
+ 1053  ls
+ 1054  git checkout addFile3 
+ 1055  ls
+ 1056  git push origin addFile3
+ 1057  git checkout addFile2
+ 1058  git push origin addFile2
+ 1059  git checkout master
+ 1060  git branch
+ 1061  git merge addFile2
+ 1062  ls
+ 1063  git merge addFile3
+ 1064  ls
+ 1065  git push origin master
+ 1066  ls
+ 1067  git checkout addFile2
+ 1068  ls
+ 1069  git merge master
+ 1070  ls
+ 1071  vi file2.txt
+ 1072  git add file2.txt
+ 1073  git commit "Modified file 2"
+ 1074  git commit -m "Modified file 2"
+ 1075  ls
+ 1076  git checkout master
+ 1077  vi file2.txt 
+ 1078  git add file2.txt
+ 1079  git commit -m "Modified file 2"
+ 1080  git merge addFile2
+ 1081  vi file2.txt 
+ 1082  git status
+ 1083  git add file2.txt
+ 1084  git commit -m "Fixed conflict"
+ 1085  git push origin master
+ 1086  history | tail -n 50
+ 1087  history | tail -n 200
+
